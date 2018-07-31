@@ -1,0 +1,139 @@
+.centered {
+  text-align: center;
+}
+
+.menu .active {
+  background-color: #555;
+}
+
+body {
+  width: 100%;
+  background-color: #C0C0C0;
+  left: 0;
+  margin: 0;
+  overflow: hidden;
+  position: relative;
+  background-repeat: no-repeat;
+
+  -webkit-font-smoothing: antialisated;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Menu */
+
+.menu {
+  background: #555 url('photo/bg-menu.jpg') center center;
+  left: -285px; /* прячем меню */
+  height: 100%;
+  position: fixed;
+  width: 285px;
+}
+
+
+/* Basic CSS */
+
+.background {
+  background: #C0C0C0;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+}
+
+.menu ul {
+  border-top: 1px solid #555;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  border-bottom: 1px solid #555;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 45px;
+  padding-bottom: 3px;
+  padding-left: 20px;
+  padding-top: 3px;
+  list-style-image: url("photo/choice.png");
+  list-style-position: inside;
+}
+
+.menu li:hover {
+  cursor: pointer;
+  background-color: #555;
+  }
+
+.menu a {
+  color: #fff;
+  font-size: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.icon-close {
+  cursor: pointer;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 6px;
+}
+
+.icon-menu {
+  color: #fff;
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  padding-top: 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.icon-menu img {
+  margin-right: 5px;
+}
+
+
+#choice img {
+  -moz-transition: all .1s ease-out;
+  -o-transition: all .1s ease-out;
+  -webkit-transition: all .1s ease-out;
+}
+
+#choice img:hover {
+  -webkit-transform: scale(1.02);
+  -ms-transform: scale(1.02);
+  -moz-transform: scale(1.02);
+  -o-transform: scale(1.02);
+  transform: scale(1.02);
+}
+
+#choice a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 22px;
+}
+
+#choice a:hover {
+  color: #696969;
+}
+.f {
+  margin-top: 45px;
+  background-color: #C0C0C0;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+}
+
+.f i {
+  color: #808080;
+  font-size: 30px;
+  padding: 20px;
+}
+
+.f i:hover {
+  color: #ff7878;
+}
